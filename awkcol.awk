@@ -6,7 +6,7 @@
 
 # Returns the nth root of x.
 function nroot(x, n) {
-    return x ** (1.0 / n)
+    return x ** (-1 * n)
 }
 
 # Returns the geometric mean of the elements in array xs.
