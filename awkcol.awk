@@ -10,7 +10,8 @@ function nroot(x, n) {
 }
 
 # Returns the geometric mean of the elements in array xs.
-function geomean(xs) {
+function geomean(xs,
+                 n, prod) {
     n = 0
     prod = 1
     for (i in xs) {
@@ -22,7 +23,8 @@ function geomean(xs) {
     else return nroot(prod, n)
 }
 
-function arithmean(xs) {
+function arithmean(xs,
+                   n, sum) {
     n = 0
     sum = 0
     for (i in xs) {
