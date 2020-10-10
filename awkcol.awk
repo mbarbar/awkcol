@@ -23,6 +23,7 @@ function geomean(xs,
     else return nroot(prod, n)
 }
 
+# Returns the arithmetic mean of the elements in array xs.
 function arithmean(xs,
                    n, sum) {
     n = 0
